@@ -148,6 +148,10 @@
     {
       "name": "文博",
       "investment": 100000
+    },
+    {
+      "name": "李焱",
+      "investment": 0
     }
   ],
   "special_investors": [
@@ -157,7 +161,7 @@
     },
     {
       "name": "妍妍",
-      "investment": 250000
+      "investment": 300000
     },
     {
       "name": "明华",
@@ -165,9 +169,13 @@
     },
     {
       "name": "文博",
-      "investment": 250000
+      "investment": 150000
+    },
+    {
+      "name": "李焱",
+      "investment": 50000
     }
   ],
-  "operator_share": 0.4,
-  "investor_share": 0.6
+  "operator_share": 0.5,
+  "investor_share": 0.5
 }

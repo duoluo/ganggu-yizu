@@ -380,8 +380,10 @@ function updateDistribution(stats) {
         let investmentNote = '';
         if (investor.name === '雅男') {
             investmentNote = '（2025.12.09前投资 ¥250,000，之后撤资）';
+        } else if (investor.name === '妍妍') {
+            investmentNote = '（2025.12.09前投资 ¥150,000，之后追加至 ¥250,000）';
         } else if (investor.name === '文博') {
-            investmentNote = '（2025.12.09前投资 ¥100,000，之后追加至 ¥350,000）';
+            investmentNote = '（2025.12.09前投资 ¥100,000，之后追加至 ¥250,000）';
         } else {
             investmentNote = `（投资 ¥${formatNumber(investor.investment)}）`;
         }
@@ -471,8 +473,10 @@ function showInvestorDetails(investorName) {
     // 根据投资人显示不同的投资金额说明
     if (investorName === '雅男') {
         detailsHtml += `<p class="text-muted">投资金额：2025.12.09前 ¥250,000，之后撤资至 ¥0</p>`;
+    } else if (investorName === '妍妍') {
+        detailsHtml += `<p class="text-muted">投资金额：2025.12.09前 ¥150,000，之后追加至 ¥250,000</p>`;
     } else if (investorName === '文博') {
-        detailsHtml += `<p class="text-muted">投资金额：2025.12.09前 ¥100,000，之后追加至 ¥350,000</p>`;
+        detailsHtml += `<p class="text-muted">投资金额：2025.12.09前 ¥100,000，之后追加至 ¥250,000</p>`;
     } else {
         detailsHtml += `<p class="text-muted">投资金额：¥${formatNumber(investor.investment)}</p>`;
     }
@@ -550,7 +554,7 @@ function showInvestorDetails(investorName) {
     detailsHtml += '<div class="alert alert-info mt-3">';
     detailsHtml += '<p class="mb-0"><small><strong>说明：</strong></small></p>';
     detailsHtml += '<ul class="mb-0 small">';
-    detailsHtml += '<li>标记为"2025.12.09后"的股票使用调整后的投资比例（雅男撤资25w，文博追加25w）</li>';
+    detailsHtml += '<li>标记为"2025.12.09后"的股票使用调整后的投资比例（雅男撤资25w，妍妍追加10w，文博追加15w）</li>';
     detailsHtml += '<li>亏损和未中签费用按2025.12.09前的原始投资比例分摊</li>';
     detailsHtml += '</ul>';
     detailsHtml += '</div>';

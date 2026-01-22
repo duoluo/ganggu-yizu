@@ -1,0 +1,173 @@
+{
+  "generated_at": "2026-01-22",
+  "password": "yizu2026",
+  "profit_stocks": [
+    {
+      "name": "IFBH",
+      "revenue": 7356.6
+    },
+    {
+      "name": "蓝思",
+      "revenue": 1298.2
+    },
+    {
+      "name": "维立志博",
+      "revenue": 8781.7
+    },
+    {
+      "name": "中慧生物",
+      "revenue": 4021.5
+    },
+    {
+      "name": "大行工科",
+      "revenue": 2873.7
+    },
+    {
+      "name": "劲方医药",
+      "revenue": 4369.82
+    },
+    {
+      "name": "紫金国际黄金",
+      "revenue": 18892.8
+    },
+    {
+      "name": "聚水潭",
+      "revenue": 627
+    },
+    {
+      "name": "海西新药",
+      "revenue": 945
+    },
+    {
+      "name": "滴普科技",
+      "revenue": 2036
+    },
+    {
+      "name": "乐舒适(200股)",
+      "revenue": 725
+    },
+    {
+      "name": "宝济药业(100股)",
+      "revenue": 2453
+    },
+    {
+      "name": "翰思艾泰(100股)",
+      "revenue": 1146,
+      "special_investors": true
+    },
+    {
+      "name": "英矽智能(500股)",
+      "revenue": 9208,
+      "special_investors": true
+    },
+    {
+      "name": "壁仞科技(600股)",
+      "revenue": 7279,
+      "special_investors": true
+    },
+    {
+      "name": "minimax(100股)",
+      "revenue": 2080,
+      "special_investors": true
+    },
+    {
+      "name": "兆易创新(100股)",
+      "revenue": 5790,
+      "special_investors": true
+    }
+  ],
+  "loss_stocks": [
+    {
+      "name": "海天酱油",
+      "loss": 1785.8
+    },
+    {
+      "name": "三花智控",
+      "loss": 677.74858
+    },
+    {
+      "name": "天岳先进",
+      "loss": 137.46118
+    },
+    {
+      "name": "奥克斯",
+      "loss": 979.18
+    }
+  ],
+  "not_won_stocks": [
+    {
+      "name": "双登",
+      "cost": 100
+    },
+    {
+      "name": "金叶国际",
+      "cost": 150
+    },
+    {
+      "name": "挚达",
+      "cost": 150
+    },
+    {
+      "name": "轩竹生物",
+      "cost": 220
+    },
+    {
+      "name": "明略",
+      "cost": 199
+    },
+    {
+      "name": "旺山旺水",
+      "cost": 146
+    },
+    {
+      "name": "智慧矿业",
+      "cost": 160
+    },
+    {
+      "name": "天数智芯",
+      "cost": 100
+    },
+    {
+      "name": "龙旗科技",
+      "cost": 0
+    }
+  ],
+  "investors": [
+    {
+      "name": "雅男",
+      "investment": 250000
+    },
+    {
+      "name": "妍妍",
+      "investment": 150000
+    },
+    {
+      "name": "明华",
+      "investment": 100000
+    },
+    {
+      "name": "文博",
+      "investment": 100000
+    }
+  ],
+  "special_investors": [
+    {
+      "name": "雅男",
+      "investment": 0
+    },
+    {
+      "name": "妍妍",
+      "investment": 150000
+    },
+    {
+      "name": "明华",
+      "investment": 100000
+    },
+    {
+      "name": "文博",
+      "investment": 350000
+    }
+  ],
+  "operator_share": 0.4,
+  "investor_share": 0.6
+}
